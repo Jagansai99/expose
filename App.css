@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+
+#root {
+  background-color: rgb(219, 177, 177);
+  color: white;
+  display: flex;
+  font-family: chewy;
+}
+#bannor {
+  background-color: teal;
+  color: white;
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 70px;
+  font-size: 2em;
+  padding-top: 20px;
+  text-align: center;
+}
+#dropBox {
+  position: absolute;
+  display: flex;
+  background-color: rgb(109, 12, 109);
+  color: whitesmoke;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px rgb(83, 70, 70);
+
+  justify-content: initial;
+  border-radius: 10px;
+  font-family: bold;
+  width: 30%;
+  height: 10%;
+  top: 15%;
+  left: 30%;
+  padding: 20px;
+}
+#select {
+  width: 78%;
+}
+
+#hotels {
+  display: flex;
+  background-image: url("hotel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 33%;
+  left: 30%;
+  width: 40%;
+  height: 20%;
+  color: magenta;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px 2px rgb(83, 70, 70);
+}
+
+#Temples {
+  display: flex;
+  background-image: url("temple.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: magenta;
+  position: absolute;
+  bottom: 25%;
+  left: 30%;
+  width: 40%;
+  height: 20%;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 2px rgb(83, 70, 70);
+}
+
+#Parks {
+  display: flex;
+  color: rgb(223, 27, 141);
+  background-image: url("park.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  align-items: center;
+  bottom: 2%;
+  right: 30%;
+  width: 40%;
+  height: 20%;
+  border-radius: 7px;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 2px rgb(83, 70, 70);
+}
+
+#disable {
+  display: none;
+}
+#span {
+  padding-bottom: 5px;
+}
